@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Poppins;
+    background: radial-gradient(circle at top, #1a1a1a, #000);
+    color: white;
+    padding-bottom: 140px;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #dfaf11;
+}
+
+body, button, p {
+    font-family: 'Inter', sans-serif;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* HEADER MAIS FORTE */
+.header {
+    padding: 40px 10px 30px;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(255,255,255,0.2);
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+/* HEADER AJUSTADO PARA MOBILE */
+.header {
+    display: flex;
+    flex-direction: row; /* 👈 garante ordem normal (logo esquerda) */
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 30px 10px 20px;
+    text-align: left;
+}
+
+/* BLOCO DE TEXTO */
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOGO */
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 30px rgba(255,255,255,0.2);
+}
+
+/* TÍTULO */
+.header h1 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 4px;
+    color: white;
+}
+
+/* SUBTÍTULO */
+.header p {
+    font-size: 13px;
+    opacity: 0.7;
+    color: #FFC300
+}
+/* BOTÕES */
+.links button {
+    width: 100%;
+    padding: 16px;
+    margin: 10px 0;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.links button:hover {
+    transform: scale(1.03);
+}
+
+/* CONTEÚDO (modal) */
+.conteudo {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: #111;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    overflow-y: auto;
+    transition: 0.4s;
+    z-index: 10;
+}
+
+.conteudo.ativo {
+    bottom: 0;
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* GRID MELHORADO */
+.integrantes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 15px;
+}
+
+/* CARD */
+.integrante {
+    background: #1c1c1c;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* FOTO QUADRADA E CENTRALIZADA */
+.integrante img {
+    width: 100%;
+    aspect-ratio: 1/1; /* deixa quadrado */
+    object-fit: cover;
+    object-position: center; /* foca no rosto */
+}
+
+/* TEXTO */
+.integrante h4 {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.integrante p {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* PARCEIROS (usa mesmo estilo) */
+.integrante img {
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.modelo img {
+    width: 80%;
+    aspect-ratio: 1.2/1; /* deixa quadrado */
+    object-fit: cover;
+    object-position: center; /* foca no rosto */
+}
+.modelo h4 {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.modelo p {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* VÍDEO COMO RODAPÉ NATURAL */
+.video-footer {
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+}
+
+.video-footer video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* MELHOR ESPAÇO PARA SCROLL */
+body::after {
+    content: "";
+    display: block;
+    height: 50px;
+}
