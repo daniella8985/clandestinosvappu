@@ -76,7 +76,7 @@ O social é extremamente importante para nós.</p>
 
          `;
     }
- if (tipo === "historia") {
+    if (tipo === "historia") {
         html += `
          <div class="modelo">
         <img src="foto2.png">
@@ -95,7 +95,7 @@ Nossa base é forte. Nada tem o poder de nos manipular. Somos o que somos e nunc
 
          `;
     }
- if (tipo === "historia") {
+    if (tipo === "historia") {
         html += `
          <div class="modelo">
         <img src="foto3.png">
@@ -155,17 +155,23 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
         <img src="parceiro1.png">
         <h4>Renegados na BR</h4>
         <p>Moto Grupo</p>
+    </div>
+
+    <div class="integrante">
+        <img src="tadeu.png">
+        <h4>Tadeu Bichon Frisé</h4>
+        <p>O Bichon Frisé Motociclista</p>
     </div>`;
     }
     if (tipo === "musica") {
         html += `
         <h2>Nossa Música</h2>
         <audio controls style="width:100%">
-            <source src="musica.mp3">
+            <source src="music.mp3">
         </audio>`;
     }
 
-   if (tipo === "contato") {
+    if (tipo === "contato") {
         html += `<h2>Nossas Missões • Ações sociais</h2>
         <h2>Morro Da Chiquinha</h2>
         <p>Boas OBRAS dão sentido à nossa caminhada...</p>
@@ -175,7 +181,8 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
          dever cumprido não tem preço no mundo que pague.</p>
                   
     `;
-    } if (tipo === "contato") {
+    }
+    if (tipo === "contato") {
         html += `
          <div class="modelo">
         <img src="morro1.jpeg">
@@ -200,7 +207,7 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
          `;
     }
 
-   if (tipo === "nossosroles") {
+    if (tipo === "nossosroles") {
         html += `<h2>Nossos Rolês</h2>
         <div class="integrante">
             <a href="https://photos.app.goo.gl/yCLP6YDXYSm8bRMa8" target="_blank">
@@ -215,23 +222,17 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
         html += `<h2>Redes Sociais</h2>
     
         <div class="integrante">
-            <a href="https://www.instagram.com/losforasteros_mg?igsh=aWN2dTI2eHEzMXZk" target="_blank">
-                <img src="instagram.jpg">
+            <a href="https://www.instagram.com/clandestinos_vappu?igsi=MWR6OW1yNnBmeDFqcg==" target="_blank">
+                <img src="instagram.jpeg">
             </a>
-            <h4>@losforasteros_mg</h4>
+            <h4>@clandestinos_vappu</h4>
             <p>Clique ou escaneie o QR Code e confira!</p>
-        </div>
     
-        <div class="integrante">
-            <a href="https://www.youtube.com/@losforasteros_mg?si=J5msjOex4DVRbO1B" target="_blank">
-                <img src="youtube.jpg">
-            </a>
-            <h4>Los Forasteros Moto Grupo</h4>
-            <p>Clique ou escaneie o QR Code e confira!</p>
         </div>`;
     }
     conteudo.innerHTML = html;
 }
+
 function fecharConteudo() {
     document.getElementById("conteudo").classList.remove("ativo");
     document.body.style.overflow = "auto";
