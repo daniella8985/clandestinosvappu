@@ -39,7 +39,7 @@ function mostrarConteudo(tipo) {
     </div>
 
 
-        <p> Na Estrada de Manutenção da Imigrantes, em um ponto próximo à cachoeira, nasceu o CLANDESTINOS.
+        <p> Esse é o primeiro registro da história do CLANDESTINOS. Na Estrada de Manutenção da Imigrantes, em um ponto próximo à cachoeira, nasceu o CLANDESTINOS.
          Naquele momento, éramos apenas “Os Clandestinos”, por causa do apelido que recebemos. Sentíamos falta de algo: liberdade para rodar de forma mais radical e livre. </p>
 
          <p> Começamos a rodar frequentemente. 
@@ -142,12 +142,14 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
         <img src="losforasteros.png">
         <h4>Los Forasteros MG</h4>
         <p>Moto Grupo</p>
+        <p>@losforasterosmg</p>
     </div>
         
         <div class="integrante">
         <img src="maos.jpeg">
         <h4>Orelhas Secas • MAOS</h4>
         <p>Moto Amigos</p>
+        <p>@orelhassecas.maos</p>
         </div>
         
 
@@ -155,12 +157,19 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
         <img src="parceiro1.png">
         <h4>Renegados na BR</h4>
         <p>Moto Grupo</p>
+        <p>@renegadosnabr</p>
     </div>
 
     <div class="integrante">
-        <img src="tadeu.png">
+        <img src="tadeu.jpg">
         <h4>Tadeu Bichon Frisé</h4>
-        <p>O Bichon Frisé Motociclista</p>
+        <p>@tadeubichonfrise</p>
+    </div>
+
+     <div class="integrante">
+        <img src="flavio.jpeg">
+        <h4>Flavio Sukita</h4>
+        <p>@flavioflmoura</p>
     </div>`;
     }
     if (tipo === "musica") {
@@ -173,7 +182,6 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
 
     if (tipo === "contato") {
         html += `<h2>Nossas Missões • Ações sociais</h2>
-        <h2>Morro Da Chiquinha</h2>
         <p>Boas OBRAS dão sentido à nossa caminhada...</p>
                
         <p>Fazer pelo próximo é aquecer a alma durante o rolê, 
@@ -200,7 +208,30 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
         <img src="acao.png">
     </div>
 
-
+    <div class="modelo">
+        <img src="acao3.jpg">
+    </div>
+    <div class="modelo">
+        <img src="acao4.jpg">
+    </div>
+    <div class="modelo">
+        <img src="acao5.jpg">
+    </div>
+    <div class="modelo">
+        <img src="acao6.jpeg">
+    </div>
+    <div class="modelo">
+        <img src="acao7.jpg">
+    </div>
+    <div class="modelo">
+        <img src="acao8.png">
+    </div>
+    <div class="modelo">
+        <img src="acao10.jpeg">
+    </div>
+<div class="modelo">
+        <img src="acao11.jpeg">
+    </div>
         <p> Ações sociais fazem total sentido a nossas vidas...
          é parte de nós fazer o bem, sem olhar a quem.  </p>
         
