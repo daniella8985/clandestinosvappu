@@ -17,11 +17,8 @@ function mostrarConteudo(tipo) {
  Sempre amei rodar de moto, mesmo sozinho, estava sempre por aí, gastando gasolina e pneu. Amo demais o bom e velho vento na cara.</p>
         `;
     }
-        if (tipo === "historia") {
-        html += `
-        <div class="modelo">
-        <img src="sergio02.jpeg">
-    </div>
+if (tipo === "historia") {html += ` <div class="modelo"> <img src="sergio02.jpeg"> </div>
+
 
         
         <p> Um dia, fui convidado para rodar com um moto grupo específico de uma determinada moto que eu possuía na época. 
