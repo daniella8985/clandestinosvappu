@@ -15,6 +15,15 @@ function mostrarConteudo(tipo) {
                
         <p>Meu nome é Sérgio, o Serjão para muitos dos meus irmãos de estrada. No meu coração sempre pulsou o amor pelo motociclismo.
  Sempre amei rodar de moto, mesmo sozinho, estava sempre por aí, gastando gasolina e pneu. Amo demais o bom e velho vento na cara.</p>
+        `;
+    }
+        if(tipo === "historia") {
+        html += `
+        <div class="modelo">
+        <img src="sergio02.jpeg">
+    </div>
+
+        
         <p> Um dia, fui convidado para rodar com um moto grupo específico de uma determinada moto que eu possuía na época. 
          Assim começou minha experiência em grupo. 
          Meus olhos se enchiam quando via um grupo ou moto clube rodando. 
