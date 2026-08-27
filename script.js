@@ -126,19 +126,6 @@ Tudo isso nos move e serve como nosso combustível diário.</p>
         <h4>Erik</h4>
         <p>Fundador & Piloto</p>
     </div>
-
-    <div class="integrante">
-        <img src="esposasergio.jpeg">
-        <h4>esposasergio</h4>
-        <p>Membro - Família</p>
-    </div>
-
-    <div class="integrante">
-        <img src="esposaErik.jpeg">
-        <h4>esposaerik</h4>
-        <p>Membro - Família</p>
-    </div>
-
         </div>`;
     }
 
